@@ -1,0 +1,65 @@
+#frame,#frame_3 {
+        border:1px solid white;
+        border-radius:15px;
+        padding:2px 4px;
+}
+QMenu::item:selected {
+     background-color: #55aaff;
+     color:black;
+}
+QMenu::item:disabled {
+     color: gray;
+}
+#frame_2{
+border:5px solid ;
+border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(229, 229, 229, 255), stop:1 rgba(255, 255, 255, 159));
+border-radius:15px;
+padding:2px 4px;
+}
+QWidget{
+        font:75  "微软雅黑 Dark";
+        /*background-color:#f5f4f7;*/
+        background-color:white;
+        /*qconicalgradient(cx:1, cy:1, angle:0, stop:0.065 rgba(0, 250, 255, 255), stop:0.186441 rgba(20, 121, 255, 255), stop:0.327684 rgba(11, 227, 255, 255), stop:0.485876 rgba(28, 161, 255, 255), stop:0.655367 rgba(28, 216, 255, 255), stop:0.779661 rgba(28, 120, 255, 255), stop:0.949153 rgba(28, 197, 255, 255));*/
+}
+QToolBar{
+/*    background-color:#FF4700;197F58*/
+    /*background-color:#81c991;*/
+    background-color:qconicalgradient(cx:1, cy:1, angle:0, stop:0.065 rgba(0, 250, 255, 255), stop:0.186441 rgba(20, 121, 255, 255), stop:0.327684 rgba(11, 227, 255, 255), stop:0.485876 rgba(28, 161, 255, 255), stop:0.655367 rgba(28, 216, 255, 255), stop:0.779661 rgba(28, 120, 255, 255), stop:0.949153 rgba(28, 197, 255, 255));
+
+    color:white;
+}
+QToolButton {
+/*    background-color: #ff6023;*/
+    background-color:qconicalgradient(cx:1, cy:1, angle:0, stop:0.065 rgba(0, 250, 255, 255), stop:0.186441 rgba(20, 121, 255, 255), stop:0.327684 rgba(11, 227, 255, 255), stop:0.485876 rgba(28, 161, 255, 255), stop:0.655367 rgba(28, 216, 255, 255), stop:0.779661 rgba(28, 120, 255, 255), stop:0.949153 rgba(28, 197, 255, 255));;
+    border: 1px transparent #4A4949;
+    border-radius: 2px;
+    margin: 3px;
+    padding: 3px;
+    color:black;
+}
+/* QToolButton::menu-button:hover*/
+QToolButton:hover{
+border:2px groove white;
+border-radius:23px;
+padding:2px 4px;
+color:red;
+background-color:transparent;
+}
+
+QToolButton:checked, QToolButton:pressed,QToolButton::menu-button:pressed {
+border:2px groove white;
+border-radius:23px;
+padding:2px 4px;
+color:red;
+background-color:transparent;
+}
+
+QListView::item:hover{
+border:2px groove gray;
+border-radius:23px;
+padding:2px 4px;
+}
+QDialog{
+background-color:white;
+}
